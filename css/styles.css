@@ -1,0 +1,36 @@
+h1{
+    color: rgb(46, 185, 240);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    background-color: rgb(150, 20, 20);
+}
+
+.cajaas{
+    background-color: red;
+
+    height: 40px;
+    width: 200px;
+    
+    border: solid 10px black;
+
+    padding: 20px 40px 80px 160px;
+
+    margin: 50px;
+
+
+
+
+}
+
+.cajitados{
+    background-color: green;
+
+}
