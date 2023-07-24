@@ -14,3 +14,26 @@ p{
 }
 
 
+
+.headercss{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .button1{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px black solid;
+    font-size: 15px;
+}
+
