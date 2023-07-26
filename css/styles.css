@@ -22,13 +22,26 @@ h4{
     font-size: 20px;
 }
 
+img{
+    max-width: 80%;
+}
+
 p{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 20px;
     margin-right: 100px;
-    margin-left: 100px;
+    margin-left: 100px; 
+    
 }
+
+@media (max-width: 768px) {
+    p{
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+}
+
 
 .imagenpressplano{
     display: flex;
@@ -46,7 +59,7 @@ p{
     font-size: 20px;
   }
 
-  .button1{
+.button1{
     display: flex;
     background-color: white;
     justify-content: center;
@@ -85,4 +98,8 @@ button{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.cabeceraindex{
+    margin-bottom: 5%;
 }
