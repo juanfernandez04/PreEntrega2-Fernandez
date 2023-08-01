@@ -1,61 +1,61 @@
-h1{
+h1 {
     color: rgb(46, 185, 240);
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-h2{
+h2 {
     color: rgb(46, 185, 240);
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-h3{
+h3 {
     color: rgb(46, 185, 240);
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-h4{
+h4 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
 
-img{
+img {
     max-width: 80%;
 }
 
-p{
+p {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 20px;
     margin-right: 100px;
-    margin-left: 100px; 
-    
+    margin-left: 100px;
+
 }
 
 @media (max-width: 768px) {
-    p{
+    p {
         margin-right: 10%;
         margin-left: 10%;
     }
 }
 
 @media (min-width: 768px) and (max-width: 1200px) {
-    .parrafosdys{
+    .parrafosdys {
         margin-right: 5%;
         margin-left: 5%;
     }
 }
 
-.imagenpressplano{
+.imagenpressplano {
     display: flex;
     margin-left: auto;
     margin-right: auto;
 }
 
-.headercss{
+.headercss {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -63,35 +63,35 @@ p{
     flex-wrap: wrap;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-  }
+}
 
-.button1{
+.button1 {
     display: flex;
     background-color: white;
     justify-content: center;
     align-items: center;
     gap: 15px;
-    
+
 }
 
-button{
+button {
     font-family: Georgia, 'Times New Roman', Times, serif;
     border: 2px black solid;
     font-size: 15px;
 }
 
-.imagenindex{
+.imagenindex {
     display: flex;
     justify-content: center;
 }
 
-.formnewsletter{
+.formnewsletter {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.footerjuan{
+.footerjuan {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -99,13 +99,61 @@ button{
     flex-wrap: wrap;
 }
 
-.ejerciciosss{
+.ejerciciosss {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.cabeceraindex{
+.cabeceraindex {
     margin-bottom: 5%;
+}
+
+.subtitulounoo {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.button-sc {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 5vh;
+}
+
+.asidevolumen {
+    margin-bottom: 5vh;
+}
+
+@media (min-width: 1200px) {
+    .divsuperavit {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 20vh 30vh 30vh 20vh;
+        grid-template-areas: 
+        "headersuperavit headersuperavit"
+        "contenidosuperavit asidesuperavit"
+        "contenidosuperavit asidesuperavit"
+        "footersuperavit footersuperavit";
+    }
+
+    .headersuperavit {
+        grid-area: headersuperavit;
+    }
+
+    .contenidosuperavit {
+        grid-area: contenidosuperavit;
+    }
+
+    .asidesuperavit {
+        grid-area: asidesuperavit;
+    }
+
+    .footersuperavit {
+        grid-area: footersuperavit;
+    }
+
 }
