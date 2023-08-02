@@ -129,31 +129,22 @@ button {
 }
 
 @media (min-width: 1200px) {
-    .divsuperavit {
+    .mainsuperavit{
         display: grid;
-        grid-template-columns: 2fr 1fr;
-        grid-template-rows: 20vh 30vh 30vh 20vh;
+        grid-template-columns: 65% 35%;
+        grid-template-rows: 1fr;
         grid-template-areas: 
-        "headersuperavit headersuperavit"
-        "contenidosuperavit asidesuperavit"
-        "contenidosuperavit asidesuperavit"
-        "footersuperavit footersuperavit";
-    }
+        "contenidosuperavit asidesuperavit";
 
-    .headersuperavit {
-        grid-area: headersuperavit;
+    
     }
-
-    .contenidosuperavit {
+    
+    .contenidosuperavit{
         grid-area: contenidosuperavit;
+        border-right: 1px black solid;
     }
 
-    .asidesuperavit {
+    .asidesuperavit{
         grid-area: asidesuperavit;
     }
-
-    .footersuperavit {
-        grid-area: footersuperavit;
-    }
-
 }
