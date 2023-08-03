@@ -1,0 +1,41 @@
+.ejercicioRutina{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.diaRutina{
+    margin-top: 40px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__titulo{
+        width: 100%;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: cadetblue;
+        margin-bottom: 20px;
+    }
+
+    &__lista{
+        width: 100%;
+        margin-bottom: 40px;
+        font-size: 1.2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.3rem;
+        font-weight: bold;
+        color: gray;
+    }
+}
+
+@media (min-width:760px){
+    .diaRutina{
+        width: 400px;
+    }
+}
