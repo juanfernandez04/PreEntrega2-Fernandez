@@ -1,0 +1,31 @@
+.colorNombre {
+    color: blueviolet;
+}
+
+.input {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+    &__img {
+        width: 100%;
+    }
+
+    &__titulo {
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
+
+
+@media (min-width:580px) {
+
+    .input__img {
+        max-width: 580px;
+    }
+}

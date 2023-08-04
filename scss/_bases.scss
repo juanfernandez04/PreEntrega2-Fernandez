@@ -1,0 +1,55 @@
+/*------------Reset de Pagina-----------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.titulo{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #3e3eca;
+}
+
+.texto{
+    max-width: 580px;
+    font-size: 1.3rem;
+    color: gray;
+    text-align: center;
+}
+
+
+@media (min-width:580px) {
+    .texto {
+        text-align: justify;
+    }
+}
+
+.botones{
+    width: 100px;
+    height: 60px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(30, 30, 138, 0.795);
+    border: none;
+}
+
+@media (min-width:1300px) {
+    .contenedorPrincipal{
+        max-width: 1300px;
+        margin-left: auto;
+        margin-right: auto;
+    }    
+}

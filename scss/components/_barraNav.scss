@@ -1,0 +1,30 @@
+.navbar{
+    &-brand{
+        &__img{
+            width: 100px;
+        }
+    }
+
+    &-nav{
+        gap: 1rem;
+
+        .nav-link{
+            font-size: 1.3rem;
+            color: black;
+
+            &:hover{
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+@media (min-width:1200px){
+    .navbar-collapse{
+        justify-content: center;
+
+}
+
+}
+
+

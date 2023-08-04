@@ -4,58 +4,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="shortcut icon" href="../img/pesas.png" type="image/x-icon">
     <title>Superávit calórico</title>
 </head>
 
 <body>
 
-    <header>
-        <section class="headercss">
-
-            <div>
-                <img src="./img/logoproyectosinfondo.jpg" alt="logo de mi sitio" width="150px" height="150px">
+    <header class="contenedorPrincipal">
+        <nav class="navbar navbar-expand-lg bg-ligth">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img class="navbar-brand__img" src="../img/logo.png"
+                        alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./ejercicios.html">Ejercicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./rutinas.html">Rutinas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./superavitcalorico.html">Superávit Calórico</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./deficitcalorico.html">Déficit Calórico</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-success" type="submit">Buscar</button>
+                    </form>
+                </div>
             </div>
-
-            <div>
-                <a href="./ejercicios.html">Ejercicios</a>
-            </div>
-
-            <div>
-                <a href="./rutinas.html">Rutinas</a>
-            </div>
-
-            <div>
-                <a href="./superavitcalorico.html">Superávit calórico</a>
-            </div>
-
-            <div>
-                <a href="deficitcalorico.html">Déficit calórico</a>
-            </div>
-
-            <div>
-                <form action="">
-                    <input type="text" placeholder="Buscar...">
-                </form>
-            </div>
-
-        </section>
-
-        <hr>
+        </nav>
     </header>
 
-    <main class="mainsuperavit">
+    <main class="contenedorPrincipal">
         <div class="contenidosuperavit">
-            <h1>
+            <h1 class="titulo">
                 Superávit calórico
             </h1>
 
-            <div class="button1">
-                <button><a href="./index.html">VOLVER AL INICIO</a></button>
-            </div>
 
-            <div>
-                <p class="parrafosdys">
+            <div class="superavit">
+                <p class="texto superavit__parrafo1">
                     Un superávit calórico o volúmen es un estado en el que el individuo consume más calorías de las
                     que
                     el
@@ -67,7 +67,7 @@
                     calorías de las que quema.
                 </p>
 
-                <p class="parrafosdys">
+                <p class="texto superavit__parrafo2">
                     Cuando uno se encuentra en un superávit calórico, el exceso de calorías que se consumen se
                     almacenan
                     en
@@ -81,7 +81,7 @@
                     excedente no utilizado se almacena para su uso futuro.
                 </p>
 
-                <p class="parrafosdys">
+                <p class="texto superavit__parrafo3">
                     El superávit calórico es especialmente relevante para cuando uno desea aumentar de peso o ganar
                     masa
                     muscular.
@@ -96,7 +96,7 @@
                     peso.
                 </p>
 
-                <p class="parrafosdys">
+                <p class="texto superavit__parrafo4">
                     Al igual que con el déficit calórico, es importante mantener un superávit calórico equilibrado y
                     saludable.
                     No
@@ -106,7 +106,7 @@
                     esenciales y una dieta equilibrada que apoye el crecimiento muscular y la salud general.
                 </p>
 
-                <p class="parrafosdys">
+                <p class="texto superavit__parrafo5">
                     Llevado al ambiente del gimnasio, el volúmen se compone tanto de la alimentación como del
                     ejercicio,
                     ya
@@ -128,7 +128,7 @@
                     favorecer la ganancia de masa muscular.
                 </p>
 
-                <p class="parrafosdys">
+                <p class="texto superavit__parrafo6">
                     Un buen volúmen no debería durar menos de 6 meses, ya que en menos de este tiempo no es tanta la
                     capacidad
                     del
@@ -146,96 +146,62 @@
                     próxima sección, o haciendo click en el siguiente link.
                 </p>
 
-                <div class="button-sc">
-                    <button><a href="./deficitcalorico.html">Déficit calórico</a></button>
-                </div>
+
+                <button class="botones"><a href="./deficitcalorico.html">Déficit calórico</a></button>
+
             </div>
         </div>
 
+        <aside class="volumen">
+            <h2 class="volumen__titulo">
+                Tips para un buen volúmen
+            </h2>
+            <ul class="volumen__tips">
+                <li>- Aumentar 200-300 calorías diarias</li>
+                <li>- Ingerir por lo menos 2 gramos de proteína por kilo de peso corporal</li>
+                <li>- Entrenar enfocado a la hipertrofia llevando todas las series lo más cerca posible del fallo
+                    muscular</li>
+                <li>- Realizar por lo menos 5 comidas diarias</li>
+                <li>- Dormir por lo menos 7 horas diarias</li>
+            </ul>
+        </aside>
 
-        <hr>
-
-        <div class="asidesuperavit">
-            <aside class="asidevolumen">
-                <h2 class="subtitulounoo">
-                    Tips para un buen volúmen
-                </h2>
-
-
-                <p>
-                    - Aumentar 200-300 calorías diarias
-                </p>
-                <p>
-                    - Ingerir por lo menos 2 gramos de proteína por kilo de peso corporal
-                </p>
-                <p>
-                    - Entrenar enfocado a la hipertrofia llevando todas las series lo más cerca posible del fallo
-                    muscular
-                </p>
-                <p>
-                    - Realizar por lo menos 5 comidas diarias
-                </p>
-                <p>
-                    - Dormir por lo menos 7 horas diarias
-                </p>
-            </aside>
-
-
-        </div>
     </main>
 
-    <hr>
+    <footer class="contenedorPrincipal">
+        <div class="redes">
+            <h4>
+                Seguime En
+            </h4>
 
-
-    <footer class="footerjuan">
-
-        <div>
-            <p>
-                Seguime en
-            </p>
-
-            <nav class="button1">
-
-                <button>
-                    <a target="https://www.instagram.com/" href="https://www.instagram.com/">Instagram</a>
-                </button>
-
-                <button>
-                    <a target="https://twitter.com/" href="https://twitter.com/?lang=es">Twitter</a>
-                </button>
-
-                <button>
-                    <a target="https://es-la.facebook.com/" href="https://es-la.facebook.com/">Facebook</a>
-                </button>
-
-            </nav>
+            <ul class="redes__lista">
+                <li class="lista__link"><a target="https://www.instagram.com/" href="https://www.instagram.com/"><img
+                            src="../img/instagram.png" alt=""></a>
+                </li>
+                <li class="lista__link"><a target="https://twitter.com/" href="https://twitter.com/?lang=es"><img
+                            src="../img/twitter.png" alt=""></a>
+                </li>
+                <li class="lista__link"><a target="https://es-la.facebook.com/" href="https://es-la.facebook.com/"><img
+                            src="../img/facebook.png" alt=""></a>
+                </li>
+            </ul>
         </div>
 
-        <div>
-            <p>
-                Suscribite al newsletter
-            </p>
+        <div class="news">
+            <h4>
+                Suscribite al Newsletter
+            </h4>
 
-            <div class="formnewsletter">
-
+            <div class="news__formulario">
                 <form action="">
                     <input type="email" placeholder="Ingrese su email..." id="">
                 </form>
-
             </div>
-
     </footer>
 
-
-
-
-
-
-
-
-
-
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
+        </script>
 
 </body>
 
