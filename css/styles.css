@@ -77,11 +77,16 @@ li {
     max-width: 580px;
   }
 }
+<<<<<<< HEAD
 .deficit {
+=======
+.ejerciciosContenedor {
+>>>>>>> 01f560d4f5ddfbf95757d95374bb52e33b5284fe
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+<<<<<<< HEAD
   gap: 3rem;
 }
 .deficit p {
@@ -91,11 +96,31 @@ li {
 
 .definicion {
   margin-top: 30px;
+=======
+  gap: 2rem;
+}
+
+.ejercicios {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.ejercicios__titulos {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: brown;
+}
+.ejercicios__informacion {
+>>>>>>> 01f560d4f5ddfbf95757d95374bb52e33b5284fe
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+<<<<<<< HEAD
 .definicion__titulo {
   font-size: 1.3rem;
   font-weight: bold;
@@ -125,10 +150,61 @@ li {
   }
 }
 .ejerciciosContenedor {
+=======
+
+.informacion__titulo {
+  font-size: 1rem;
+  font-weight: bold;
+  color: chocolate;
+}
+
+.informacion__img {
+  width: 100%;
+  height: 200px;
+  border: 1px solid grey;
+  box-shadow: 1px 1px 5px grey;
+}
+
+@media (min-width: 1200px) {
+  .ejerciciosContenedor {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+  }
+  .titulo {
+    grid-column: 1/3;
+  }
+  .texto {
+    grid-column: 1/3;
+  }
+  .ejercicios {
+    grid-column: 1/3;
+    display: grid;
+    grid-template-columns: repeat(2, 380px);
+    column-gap: 4rem;
+    row-gap: 1rem;
+  }
+  .ejercicios__titulos {
+    grid-column: 1/3;
+    text-align: center;
+  }
+  .rutina {
+    grid-column: 1/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+}
+.ejercicioRutina {
+>>>>>>> 01f560d4f5ddfbf95757d95374bb52e33b5284fe
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+<<<<<<< HEAD
   gap: 2rem;
 }
 
@@ -239,11 +315,43 @@ li {
   color: gray;
 }
 
+=======
+}
+
+.diaRutina {
+  margin-top: 40px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.diaRutina__titulo {
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: cadetblue;
+  margin-bottom: 20px;
+}
+.diaRutina__lista {
+  width: 100%;
+  margin-bottom: 40px;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+  font-weight: bold;
+  color: gray;
+}
+
+>>>>>>> 01f560d4f5ddfbf95757d95374bb52e33b5284fe
 @media (min-width: 760px) {
   .diaRutina {
     width: 400px;
   }
 }
+<<<<<<< HEAD
 .superavit {
   display: flex;
   flex-direction: column;
@@ -291,6 +399,8 @@ li {
     grid-column: 2/4;
   }
 }
+=======
+>>>>>>> 01f560d4f5ddfbf95757d95374bb52e33b5284fe
 .navbar-brand__img {
   width: 100px;
 }
